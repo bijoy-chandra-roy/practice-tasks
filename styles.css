@@ -11,13 +11,14 @@ nav li {
 
 nav {
   background-color: rgb(0, 0, 0);
+  border-radius: 25px;
 }
 nav:hover {
   background-color:gray;
 }
 
 a{
-    padding: 15px;
+    padding: 20px;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -25,9 +26,10 @@ a{
 }
 a:hover {
   background-color: rgb(0, 0, 0);
+  border-radius: 25px;
   
 }
 
 body{
-    font-size:250%;
+    font-size:150%;
 }
