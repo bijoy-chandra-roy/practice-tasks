@@ -1,3 +1,15 @@
 #p3 {
   background-color: brown;
 }
+.unique{
+  background-color: aqua;
+  border-radius: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+}
+div h{
+  font-size:larger;
+}
+div p{
+  font-size: smaller;
+}
