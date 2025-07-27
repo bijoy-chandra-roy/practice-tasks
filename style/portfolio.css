@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -56,6 +56,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0px 100px 50px;
+  padding-top: 20px;
 }
 
 .nav-title {
@@ -75,7 +76,7 @@ nav ul li a {
   font-size: 20px;
 }
 
-.contact{
+.contact {
   background-color: #fff8f3;
   color: #fd6e0a;
   border: 1px solid #fd6e0a;
@@ -90,6 +91,9 @@ nav ul li a {
 }
 .banner-content {
   max-width: 580px;
+}
+.banner-content button {
+  margin-top: 20px;
 }
 .banner-greetings {
   font-weight: 600;
@@ -107,7 +111,7 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-main section{
+main section {
   margin-top: 130px;
   margin-bottom: 130px;
 }
@@ -116,7 +120,6 @@ main section{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-
 }
 .about-items {
   display: flex;
@@ -136,34 +139,37 @@ main section{
   border-radius: 5px;
 }
 /* resume section styles */
-.resume-container{
+.resume-container {
   display: flex;
   gap: 24px;
 }
-.experience-sub-title{
+.experience-sub-title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
-.experience-description, .experience-sub-title{
+.experience-description,
+.experience-sub-title {
   color: #757575;
 }
-.resume hr{
+.resume hr {
   margin: 30px;
 }
-.resume-download-cv{
+.resume-download-cv {
   margin-top: 50px;
 }
 /* footer styles */
-footer{
+footer {
   padding: 130px 230px;
   display: flex;
   gap: 100px;
 }
-.footer-column{
-  width: 50%
+.footer-column {
+  width: 50%;
 }
-footer input[type="text"], footer input[type="email"], footer textarea{
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
   height: 64px;
   border-radius: 5px;
   background-color: white;
