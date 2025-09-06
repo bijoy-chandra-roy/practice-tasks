@@ -6,71 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Year Party Celebration</title>
     <link rel="stylesheet" href="./style/happy-new-year.css">
-    <script src="./navbar.js" defer></script>
+    <!-- Get Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <!-- Banner -->
         <div class="banner">
             <div class="banner-text">
                 <p class="banner-sub-title">Happy New Year</p>
                 <h3 class="banner-heading">New Year Party Celebration</h3>
             </div>
-            <img src="./assets/happy-new-year/images/Banner Image.png"
-                alt="the banner image showcasing the word happy new year" class="banner-img">
+            <div class="gradient-wrapper">
+                <img src="./assets/happy-new-year/images/Banner Image.png"
+                    alt="the banner image showcasing the word happy new year" class="banner-img">
+            </div>
         </div>
     </header>
     <main>
         <!-- Discount -->
         <section class="discount">
             <h3>65% OFF</h3>
-            <p>OUR HOLIDAY DEALS ARE BETTER</p>
-            <p>ALL CATEGORIES</p>
+            <p class="claim">OUR HOLIDAY DEALS ARE BETTER</p>
+            <p class="categories">ALL CATEGORIES</p>
             <img src="./assets/happy-new-year/images/New Year Photo.png" alt="A message saying, happy new year">
         </section>
 
         <!-- Welcome -->
         <section class="welcome">
-            <h3>Welcome to midnight party</h3>
-            <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales
-                risus ut pellentesque vel euismod. </p>
-            <p>JOIN NOW</p>
-
+            <div class="welcome-container">
+                <div class="welcome-texts">
+                    <h3>Welcome to midnight party</h3>
+                    <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed
+                        sodales
+                        risus ut pellentesque vel euismod. </p>
+                    <a href="">JOIN NOW</a>
+                </div>
+                <img src="./assets/happy-new-year/images/Group 70.png" alt="Stylized 2024" class="year2024">
+            </div>
         </section>
+
         <!-- Space-Time location -->
         <section class="space-time">
-            <p>Place: New Park Hotel
-                Date: 31 December Night 2023
-                Time: Evening 7.30 pm to 12.30 am</p>
+            <p><span>Place:</span> New Park Hotel</p>
+            <p><span>Date:</span> 31 December Night 2023</p>
+            <p><span>Time:</span> Evening 7.30 pm to 12.30 am</p>
             <button>JOIN NOW</button>
         </section>
         <!-- Upcoming -->
         <section class="upcoming">
-            <div class="col">
+            <div class="col best-offer">
                 <h5>NEW BEST OFFER</h5>
                 <h3>Coming Soon</h3>
                 <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed
                     sodales risus ut pellentesque vel euismod. </p>
             </div>
-            <div class="col">
+            <div class="col circle">
                 <img src="./assets/happy-new-year/images/Ellipse 1.png" alt="Friends celebrating new year together">
             </div>
-            <div class="col">
-                <h3>2024</h3>
+            <div class="col year2024">
+                <h4>2024</h4>
                 <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed.</p>
                 <img src="./assets/happy-new-year/images/Group 96.png" alt="Happy New Year sticker">
             </div>
         </section>
         <!-- Sale -->
         <section class="sale">
-            <h5>WHAT IS FUNCTIONAL</h5>
-            <h2>Holiday Sale 50%</h2>
-            <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
-                molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. Eleifend nunc purus quam id
-                fermentum amet amet sit consectetur.</p>
-            <img src="./assets/happy-new-year/images/Group 44.png" alt="50% Discount">
-            <img src="./assets/happy-new-year/images/Group 75.png" alt="Opened gift box">
-            <img src="./assets/happy-new-year/images/Rectangle 2.png" alt="Red block">
+            <div class="texts">
+                <h5>WHAT IS FUNCTIONAL</h5>
+                <h2><span>Holidays</span> Sale 50%</h2>
+                <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
+                    molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod. Eleifend nunc purus quam id
+                    fermentum amet amet sit consectetur.</p>
+            </div>
+            <div class="images">
+                <img src="./assets/happy-new-year/images/Group 44.png" alt="50% Discount" class="discount">
+                <img src="./assets/happy-new-year/images/Group 75.png" alt="Opened gift box" class="gift">
+                <img src="./assets/happy-new-year/images/Rectangle 2.png" alt="Red block" class="red-block">
+            </div>
         </section>
         <!-- Portfolio -->
         <section class="portfolio">
@@ -93,37 +116,41 @@
             <h3>Subscribe Newsletter</h3>
             <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales
                 risus ut pellentesque vel euismod. </p>
-            <input type="text" placeholder="user@gmail.com">
-            <button>Subscribe</button>
+            <div class="input-field">
+                <input type="text" placeholder="user@gmail.com">
+                <button>Subscribe</button>
+            </div>
         </section>
     </main>
     <footer>
-        <div class="contacts">
-            <p class="address">44, Big Building Roosevelt Street
-                Beach Gardens Florida 33410</p>
-            <div class="online-address">
-                <div class="phone">
-                    <img src="./assets/happy-new-year/icons/Call.png" alt="Call Icon">
-                    <p>+00 123 584 124</p>
-                </div>
-                <div class="website">
-                    <img src="./assets/happy-new-year/icons/Website.png" alt="Website Icon">
-                    <p>www.website.com</p>
+        <section class="footer">
+            <div class="contacts">
+                <p class="address">44, Big Building Roosevelt Street
+                    Beach Gardens Florida 33410</p>
+                <div class="online-address">
+                    <div class="phone">
+                        <img src="./assets/happy-new-year/icons/Call.png" alt="Call Icon">
+                        <p>+00 123 584 124</p>
+                    </div>
+                    <div class="website">
+                        <img src="./assets/happy-new-year/icons/Website.png" alt="Website Icon">
+                        <p>www.website.com</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <hr>
-        <div class="socials">
-            <img src="./assets/happy-new-year/icons/Facebook.png" alt="Facebook Icon">
-            <img src="./assets/happy-new-year/icons/Instagram.png" alt="Instagram Icon">
-            <img src="./assets/happy-new-year/icons/Twitter.png" alt="Twitter Icon">
-            <img src="./assets/happy-new-year/icons/Linkedin.png" alt="Linkedin Icon">
-        </div>
-        <hr>
-        <div class="actual-footer">
-            <p class="rights">2017, All Rights Reserved.</p>
-            <p class="sub-unsub">Unsubscribe</p>
-        </div>
+            <hr>
+            <div class="socials">
+                <img src="./assets/happy-new-year/icons/Facebook.png" alt="Facebook Icon">
+                <img src="./assets/happy-new-year/icons/Instagram.png" alt="Instagram Icon">
+                <img src="./assets/happy-new-year/icons/Twitter.png" alt="Twitter Icon">
+                <img src="./assets/happy-new-year/icons/Linkedin.png" alt="Linkedin Icon">
+            </div>
+            <hr>
+            <div class="actual-footer">
+                <p class="rights">2017, All Rights Reserved.</p>
+                <p class="sub-unsub">Unsubscribe</p>
+            </div>
+        </section>
     </footer>
 </body>
 

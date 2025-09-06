@@ -1,3 +1,387 @@
-body{
-      margin: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Banner */
+.banner {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather";
+  width: 632px;
+  z-index: 2;
+}
+
+.banner-sub-title {
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-heading {
+  font-size: 72px;
+  font-weight: 900;
+}
+.gradient-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#070211, #07021100);
+  pointer-events: none;
+  border-radius: 16px;
+}
+
+/* Discount */
+.discount {
+  width: 802px;
+  margin: 0px auto 120px;
+  text-align: center;
+  font-family: "Inter";
+}
+
+.discount h3 {
+  color: #ff0000;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.discount .claim {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.discount .categories {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+/* Welcome */
+.welcome {
+  background-image: linear-gradient(to right, #070211, #07021100),
+    url(/assets/happy-new-year/images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-texts {
+  width: 697px;
+  color: white;
+}
+.welcome-texts h3 {
+  font-family: "Merriweather";
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.welcome-texts p {
+  font-family: "Inter";
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.welcome-texts a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-left: 32px;
+}
+
+/* Space-Time location */
+.space-time {
+  height: 482px;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.1), #ff000000);
+  margin-top: 120px;
+  margin-bottom: 120px;
+  border-radius: 16px;
+  text-align: center;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.space-time p span {
+  color: #ff0000;
+}
+
+.space-time p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.space-time button {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  width: 167px;
+  height: 56px;
+  border-radius: 8px;
+  margin-top: 48px;
+}
+
+/* Upcoming */
+.upcoming {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upcoming .best-offer {
+  width: 393px;
+}
+
+.upcoming .circle {
+  width: 400px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid red;
+  border-radius: 50%;
+}
+
+.upcoming .year2024 {
+  width: 276px;
+}
+
+.upcoming h5,
+.upcoming h4 {
+  color: red;
+}
+
+.upcoming p {
+  font-family: "Inter";
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  font-weight: 400;
+}
+
+.best-offer h5 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter";
+}
+
+.best-offer h3 {
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.upcoming .year2024 h4 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter";
+  margin-top: 80px;
+}
+.upcoming .year2024 p {
+  margin-top: 16px;
+  margin-bottom: 43px;
+}
+
+/* Sale */
+.sale {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.sale .texts {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.sale h5 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+}
+.sale h2 {
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+
+.sale h2 span {
+  color: red;
+}
+
+.sale p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.sale .images {
+  position: relative;
+  height: 700px;
+}
+
+.sale .images img {
+  position: absolute;
+}
+
+.sale .images .red-block {
+  bottom: 0px;
+}
+
+.sale .images .gift {
+  left: 63px;
+  z-index: 2;
+}
+
+.sale .images .discount {
+  right: 40px;
+  bottom: 179px;
+  width: 305px;
+  aspect-ratio: 1;
+}
+
+/* Portfolio */
+
+.portfolio h5 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+
+.portfolio h3 {
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.portfolio p {
+  width: 896px;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 48px;
+}
+
+.portfolio .collage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 616px;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.newsletter h3 {
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.newsletter p {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  width: 896px;
+  text-align: center;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 48px;
+}
+
+.newsletter .input-field {
+  display: flex;
+}
+
+.newsletter .input-field input,
+.newsletter .input-field button {
+  border: none;
+  height: 72px;
+  font-family: "Inter";
+}
+
+.newsletter .input-field input {
+  width: 438px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.3);
+  padding-left: 30px;
+}
+
+.newsletter .input-field button {
+  width: 210px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #ff0000;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #070211;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  color: white;
+  height: 609px;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
 }
